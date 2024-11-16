@@ -1,0 +1,19 @@
+
+To get an interactive compute node on hpc3:
+
+```
+srun -p free --pty /bin/bash -i
+```
+
+To see modules
+```
+module avail
+```
+
+To install julia, 
+```
+module load julia/1.9.3
+```
+(or whavever the latest version is).
+
+
